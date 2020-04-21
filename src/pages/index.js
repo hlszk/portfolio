@@ -151,11 +151,20 @@ const IndexPage = () => (
             <li className="icon fas fa-puzzle-piece">
               <span className="weight-reduced">F84.5 obsessiveness</span>
             </li>
+            <li className="icon fas fa-chart-line">
+              <span className="weight-reduced">Tracking habits</span>
+            </li>
+            <li className="icon fas fa-pencil-alt">
+              <span className="weight-reduced">
+                <a href="https://www.magi-mania.de/author/agata/">
+                  Blogging about skincare
+                </a>
+              </span>
+            </li>
           </ul>
           <p>
             Wichtig sind mir meine liebsten Menschen. Danach der kontinuierliche
-            Verbesserungsprozess täglicher Gewohnheiten und meiner
-            Pro-Aktivität.
+            Verbesserungsprozess meiner Pro-Aktivität.
           </p>
         </div>
       </section>
