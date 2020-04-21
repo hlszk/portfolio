@@ -1,0 +1,19 @@
+/* Icon */
+
+.icon {
+  @include icon;
+  border-bottom: none;
+  position: relative;
+
+  > .label {
+    display: none;
+  }
+  // only color icons with links
+  @at-root {
+    a#{&} {
+      &:hover {
+        color: _palette(bg);
+      }
+    }
+  }
+}
