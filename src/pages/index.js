@@ -10,7 +10,6 @@ import heroMp4 from '../assets/video/hero.mp4';
 import pic2 from '../assets/images/pic02.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
-import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
@@ -106,12 +105,12 @@ const IndexPage = () => (
         <div className="content">
           <p>
             <strong>Lern mich besser kennen durch meine größe Schwäche.</strong>{' '}
-            Ich fühle mich beschämt angesprochen von "Premature optimization is
-            the root of all evil" (Donald Knuth aus
+            Ich fühle mich beschämt angesprochen von «Premature optimization is
+            the root of all evil» (Donald Knuth aus
             <em> Computer Programming as an Art, 1974</em>).
           </p>
           <span className="image main">
-            <img src={pic2} alt="" />
+            <img src={pic2} alt="Ala-Kul See in Kyrgysztan" />
           </span>
         </div>
       </section>
@@ -169,8 +168,19 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+            <strong>Die Ersten</strong> als mein aktuelles Lieblingsgedicht von
+            Uwe Kolbe, <em>«Idago» 2020</em>.
+          </p>
+          <p>
+            <blockquote>
+              {/* prettier-ignore */}
+              Selbstverständlich ist es ein Irrtum,
+              <br /> glaubte ich, jede und jeder verliebte
+              <br /> sich in dich. Es ist nur jede und jeder
+              <br /> Zweite. Aber das genügt dir nicht,
+              <br /> aus geht dein Aug und schießt Traum
+              <br /> und Schmerz in die Herzen der Ersten.
+            </blockquote>
           </p>
 
           <section>
@@ -233,20 +243,34 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Get to know my «Inner Circle».</strong> This starter
-            contains all elements for a page. Check it out
+            <strong>Get to know my «Inner Circle».</strong> Besuche meinen Vater
+            Jacek, meine Mutter Beata, meine Tante Beata oder den Kochblog aller
+            aufgezählten Personen.
           </p>
           <ul className="actions">
             <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
-              </Link>
-            </li>
-            {/* <li>
-              <a href="/#" className="button large">
-                Learn More
+              <a href="https://jacek.jankowski.org/" className="button primary">
+                Jacek
               </a>
-            </li> */}
+            </li>
+            <li>
+              <a href="https://beata.jankowski.org/" className="button primary">
+                Beata1
+              </a>
+            </li>
+            <li>
+              <a href="https://janko.jankowski.org/" className="button primary">
+                Beata2
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://kuchnia.jankowski.org/"
+                className="button primary"
+              >
+                Rezepte
+              </a>
+            </li>
           </ul>
         </div>
       </section>
