@@ -38,7 +38,9 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Lern mich besser kennen durch meine größe Schwäche.</strong>{' '}
+            <strong>
+              Lern mich besser kennen durch meine größte Schwäche.
+            </strong>{' '}
             Ich fühle mich beschämt angesprochen von «Premature optimization is
             the root of all evil» (Donald Knuth aus
             <em> Computer Programming as an Art, 1974</em>).
@@ -96,7 +98,7 @@ const IndexPage = () => (
             <li className="icon fas fa-pencil-alt">
               <span className="weight-reduced">
                 <a href="https://www.magi-mania.de/author/agata/">
-                  Blogging about skincare
+                  Skincare blog archive
                 </a>
               </span>
             </li>
