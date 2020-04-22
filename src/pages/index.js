@@ -5,82 +5,11 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-//import heroImage from '../assets/images/pic01.jpg';
 import heroMp4 from '../assets/video/hero.mp4';
-import pic2 from '../assets/images/pic02.jpg';
-import Gallery from '../components/Gallery';
+import tents from '../assets/images/tents.jpg';
+// import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 
-const img_set_1 = [
-  {
-    src: require('../assets/images/gallery/fulls/01.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
-    title: 'Great Sky',
-    desc: 'Be one with the Universe',
-    full: true,
-  },
-  {
-    src: require('../assets/images/gallery/fulls/02.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/02.jpg'),
-    title: 'High Mountains',
-    desc: 'Be one with the mountains',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/03.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/03.jpg'),
-    title: 'Any time ',
-    desc: 'Be one with the time',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg'),
-    title: 'Any source of light',
-    desc: 'Be one with the light',
-    full: true,
-  },
-];
-const img_set_2 = [
-  {
-    src: require('../assets/images/gallery/fulls/05.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/05.jpg'),
-    title: 'Any Curiosity',
-    desc: 'Be one with the curiosity',
-    full: true,
-  },
-  {
-    src: require('../assets/images/gallery/fulls/06.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/06.jpg'),
-    title: 'Any source of enlightenment',
-    desc: 'Be one with the soul',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/07.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/07.jpg'),
-    title: 'Be in present',
-    desc: 'Be one with the present',
-  },
-];
-const img_set_3 = [
-  {
-    src: require('../assets/images/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
-    full: true,
-  },
-];
 const IndexPage = () => (
   <Layout>
     <div id="wrapper">
@@ -110,7 +39,7 @@ const IndexPage = () => (
             <em> Computer Programming as an Art, 1974</em>).
           </p>
           <span className="image main">
-            <img src={pic2} alt="Ala-Kul See in Kyrgysztan" />
+            <img src={tents} alt="Ala-Kul See in Kyrgysztan" />
           </span>
         </div>
       </section>
@@ -177,8 +106,8 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Die Ersten</strong> als mein aktuelles Lieblingsgedicht von
-            Uwe Kolbe, <em>«Idago» 2020</em>.
+            <strong>Die Ersten</strong> als mein aktuelles Lieblingsgedicht, Uwe
+            Kolbe (<em>«Idago», 2020</em>).
           </p>
           <p>
             <blockquote>
@@ -202,41 +131,7 @@ const IndexPage = () => (
               </p>
             </header>
             <div className="content">
-              <Gallery images={img_set_1} />
-            </div>
-          </section>
-
-          <section>
-            <header>
-              <h3>Nisl consequat</h3>
-              <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={img_set_2} />
-              </div>
-            </div>
-          </section>
-
-          <section>
-            <header>
-              <h3>Lorem gravida</h3>
-              <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={img_set_3} />
-              </div>
+              {/* <Gallery images={img_set_1} /> */}
             </div>
           </section>
         </div>
