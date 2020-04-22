@@ -8,6 +8,7 @@ import SideFooter from '../components/SideFooter';
 import heroMp4 from '../assets/video/hero.mp4';
 import heroWebm from '../assets/video/hero.webm';
 import heroOgg from '../assets/video/hero.ogv';
+import heroPoster from '../assets/images/hero-poster.png';
 import tents from '../assets/images/tents.jpg';
 // import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
@@ -19,7 +20,7 @@ const IndexPage = () => (
         <Header />
         <div className="content">
           <span className="image fill" data-position="center">
-            <video playsInline loop autoPlay muted>
+            <video playsInline loop autoPlay muted poster={heroPoster}>
               <source src={heroMp4} type="video/mp4" />
               <source src={heroWebm} type="video/webm" />
               <source src={heroOgg} type="video/ogg" />

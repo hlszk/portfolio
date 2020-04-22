@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#C3073F',
   manifestThemeColor: '#C3073F',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Agata Halszka Jankowski',
   subHeading: 'Informatikerin (B.Sc.), Buchhändlerin.  ',
