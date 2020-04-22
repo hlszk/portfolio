@@ -41,6 +41,11 @@ const IndexPage = () => (
           <span className="image main">
             <img src={tents} alt="Ala-Kul See in Kyrgysztan" />
           </span>
+          <p>
+            Zweitgrößte Schwäche: Ohne{' '}
+            <a href="https://www.komoot.de/user/837879928501">Komoot</a> geht
+            nichts.
+          </p>
         </div>
       </section>
 
@@ -100,13 +105,11 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>
-            It is impossible for a man to learn what he thinks he already knows.
-          </h2>
+          <h2>The obstacle is the way.</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Die Ersten</strong> als mein aktuelles Lieblingsgedicht, Uwe
+            <strong>Die Ersten</strong> als aktuelles Lieblingsgedicht, Uwe
             Kolbe (<em>«Idago», 2020</em>).
           </p>
           <p>
