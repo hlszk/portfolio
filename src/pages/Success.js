@@ -9,12 +9,12 @@ const IndexPage = () => (
       <div className="container">
         <div className="content">
           <header className="major">
-            <h2>NOT FOUND</h2>
+            <h2>Danke!</h2>
           </header>
           <section>
-            <h4>Not a valid URL</h4>
+            <h4>Deine Nachricht wurde erfolgreich übermittelt.</h4>
             <Link to="/" className="button primary">
-              Go back
+              Gehe zurück
             </Link>
           </section>
         </div>

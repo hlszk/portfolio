@@ -47,9 +47,9 @@ const IndexPage = () => (
             <img src={tents} alt="Ala-Kul See in Kyrgysztan" />
           </span>
           <p>
-            Zweitgrößte Schwäche: Ohne{' '}
-            <a href="https://www.komoot.de/user/837879928501">Komoot</a> geht
-            nichts.
+            Zweitgrößte Schwäche:{' '}
+            <a href="https://www.komoot.de/user/837879928501">Komoot</a>{' '}
+            everything.
           </p>
         </div>
       </section>
