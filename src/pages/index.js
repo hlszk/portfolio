@@ -112,17 +112,15 @@ const IndexPage = () => (
             <strong>Die Ersten</strong> als aktuelles Lieblingsgedicht, Uwe
             Kolbe (<em>«Idago», 2020</em>).
           </p>
-          <p>
-            <blockquote>
-              {/* prettier-ignore */}
-              Selbstverständlich ist es ein Irrtum,
-              <br /> glaubte ich, jede und jeder verliebte
-              <br /> sich in dich. Es ist nur jede und jeder
-              <br /> Zweite. Aber das genügt dir nicht,
-              <br /> aus geht dein Aug und schießt Traum
-              <br /> und Schmerz in die Herzen der Ersten.
-            </blockquote>
-          </p>
+          <blockquote>
+            {/* prettier-ignore */}
+            Selbstverständlich ist es ein Irrtum,
+            <br /> glaubte ich, jede und jeder verliebte
+            <br /> sich in dich. Es ist nur jede und jeder
+            <br /> Zweite. Aber das genügt dir nicht,
+            <br /> aus geht dein Aug und schießt Traum
+            <br /> und Schmerz in die Herzen der Ersten.
+          </blockquote>
 
           <section>
             <header>
