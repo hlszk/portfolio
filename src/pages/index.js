@@ -6,6 +6,8 @@ import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
 import heroMp4 from '../assets/video/hero.mp4';
+import heroWebm from '../assets/video/hero.webm';
+import heroOgg from '../assets/video/hero.ogv';
 import tents from '../assets/images/tents.jpg';
 // import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
@@ -19,6 +21,8 @@ const IndexPage = () => (
           <span className="image fill" data-position="center">
             <video playsInline loop autoPlay muted>
               <source src={heroMp4} type="video/mp4" />
+              <source src={heroWebm} type="video/webm" />
+              <source src={heroOgg} type="video/ogg" />
             </video>
             {/* <img src={heroImage} alt="" /> */}
           </span>
