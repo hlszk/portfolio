@@ -115,7 +115,7 @@ const IndexPage = () => (
         <div className="content">
           <p>
             <strong>Die Ersten</strong> als aktuelles Lieblingsgedicht, Uwe
-            Kolbe (<em>«Idago», 2020</em>).
+            Kolbe (<em>«Imago», 2020</em>).
           </p>
           <blockquote>
             {/* prettier-ignore */}
