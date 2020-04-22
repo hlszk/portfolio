@@ -34,5 +34,5 @@ module.exports = {
     },
   ],
   emailId: 'mail@agata.de',
-  address: 'Karlsruhe',
+  address: '76227 Karlsruhe',
 };
