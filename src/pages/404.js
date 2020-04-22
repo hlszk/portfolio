@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -12,6 +13,9 @@ const IndexPage = () => (
           </header>
           <section>
             <h4>Not a valid URL</h4>
+            <Link to="/" className="button primary">
+              Go back
+            </Link>
           </section>
         </div>
       </div>
