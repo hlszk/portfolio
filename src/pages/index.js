@@ -123,7 +123,7 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Erat aliquam</h3>
+              <h3>Danke für den Besuch!</h3>
               <p>
                 If you are pained by any external thing, it is not this thing
                 that disturbs you, but your own judgment about it. And it is in
