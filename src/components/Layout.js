@@ -45,7 +45,7 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Agata Halszka Jankowski' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'keywords', content: 'portfolio, Agata, hlszk' },
               ]}
             >
               <html lang="en" />
