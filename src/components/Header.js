@@ -10,7 +10,7 @@ export default function Header() {
       <ul className="actions">
         <li>
           <Scroll type="id" element="first">
-            <a href="#first" className="arrow">
+            <a href="#first" className="arrow" aria-label="Next">
               <span className="label">Next</span>
             </a>
           </Scroll>
