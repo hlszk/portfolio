@@ -24,9 +24,11 @@ export default function ContactForm() {
           <div className="fields">
             <div className="field half">
               <input type="text" name="name" id="name" placeholder="Name" />
+              <label for="name">Name</label>
             </div>
             <div className="field half">
               <input type="email" name="email" id="email" placeholder="Email" />
+              <label for="email">Email</label>
             </div>
             <div className="field">
               <textarea
@@ -35,6 +37,7 @@ export default function ContactForm() {
                 placeholder="Message"
                 rows="7"
               />
+              <label for="message">Message</label>
             </div>
           </div>
           <ul className="actions">
