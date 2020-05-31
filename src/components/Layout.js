@@ -35,6 +35,7 @@ class Layout extends Component {
             site {
               siteMetadata {
                 title
+                image
               }
             }
           }
@@ -46,6 +47,7 @@ class Layout extends Component {
               meta={[
                 { name: 'description', content: 'Agata Halszka Jankowski' },
                 { name: 'keywords', content: 'portfolio, Agata, hlszk' },
+                { name: 'og:image', content: data.site.siteMetadata.image },
               ]}
             >
               <html lang="en" />
