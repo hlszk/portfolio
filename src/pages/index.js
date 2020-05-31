@@ -90,7 +90,12 @@ const IndexPage = () => (
               <span className="weight-reduced">Woke about trails</span>
             </li>
             <li className="icon fas fa-puzzle-piece">
-              <span className="weight-reduced">F84.5 obsessiveness</span>
+              <span className="weight-reduced">
+                <a href="https://www.16personalities.com/istp-personality">
+                  ISTP
+                </a>{' '}
+                obsessiveness
+              </span>
             </li>
             <li className="icon fas fa-chart-line">
               <span className="weight-reduced">Tracking habits</span>
