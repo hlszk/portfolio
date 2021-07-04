@@ -32,6 +32,11 @@ module.exports = {
       name: 'Strava',
       url: 'https://www.strava.com/athletes/hlszk',
     },
+        {
+      icon: 'fas fa-chess-rook',
+      name: 'Chessable',
+      url: 'https://www.chessable.com/profile/hlszk/',
+    },
   ],
   emailId: 'mail@agata.de',
   address: 'Karlsruhe',

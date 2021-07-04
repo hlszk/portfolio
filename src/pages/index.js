@@ -49,9 +49,9 @@ const IndexPage = () => (
             <img src={tents} alt="Ala-Kul See in Kyrgysztan" />
           </span>
           <p>
-            Zweitgrößte Schwäche:{' '}
-            <a href="https://www.komoot.de/user/837879928501">Komoot</a>{' '}
-            everything.
+            Mich machen die kleinen Dinge im Leben glücklich, wie eine{' '}
+            <a href="https://twitter.com/anishgiri/status/1380609711804973065">Tweet-Antwort an mich</a>{' '}
+            von Anish Giri.
           </p>
         </div>
       </section>
